@@ -1,19 +1,18 @@
-Retail Grocery Sales Dashboard - Power BI Project
-
+Customer Satisfaction Analysis - Power BI Project
 Overview
-This project involves creating an interactive sales dashboard using Power BI to visualize and analyze grocery sales data from a retail store. The dataset includes key metrics such as product categories, sales value, cost value, gross margin, cities, and profit.
+This project focuses on analyzing customer satisfaction in a retail grocery store using Power BI. The goal is to understand how different factors such as sales, profit, product categories, and location influence customer satisfaction.
 
 Objective
-To analyze the retail sales performance of a supermarket chain.
+To analyze patterns in customer satisfaction across cities and product categories.
 
-To visualize trends in product performance, category-wise contribution, and city-level sales.
+To identify high and low-performing areas based on customer-related KPIs.
 
-To help business stakeholders make data-driven decisions using interactive dashboards.
+To support data-driven decisions for improving customer experience.
 
 Dataset
 File: Supermart Grocery Sales - Retail Analytics Dataset.csv
 
-Fields:
+Important Fields:
 
 Date
 
@@ -29,48 +28,46 @@ Cost Value
 
 Gross Margin
 
-Quantity Sold
-
 Profit
 
+Quantity Sold
+
+Note: The dataset does not contain a direct 'Customer Satisfaction' field. Satisfaction is inferred using indirect metrics such as repeat sales trends, profit margins, and product/category performance.
+
 Dashboard Features
-Overall Sales, Profit, and Gross Margin KPIs
+KPI Cards for Sales, Profit, Gross Margin
 
-Category-wise and Sub-category-wise Sales breakdown
+Visuals for:
 
-City-wise performance comparison
+City-wise performance
 
-Monthly trend analysis of sales and profit
+Category-wise sales and profit
 
-Interactive slicers for category and city filtering
+Monthly trend analysis
+
+High margin vs low margin product performance
+
+Slicers for filtering by city and category
 
 Tools Used
-Power BI (for visualization and dashboard creation)
+Power BI (for visualization)
 
-Microsoft Excel (for initial data cleanup and formatting)
+Excel/Power Query (for data preparation)
 
-Insights Generated
-Top-performing product categories and subcategories
+Insights Extracted
+Cities with higher profit margins often indicate better customer retention.
 
-Cities contributing the most to total profit
+Certain product sub-categories drive most of the sales and satisfaction.
 
-Monthly growth trends in sales and margins
-
-Gross Margin hotspots to focus on profitability
+Seasonal patterns impact satisfaction through fluctuating sales and quantity sold.
 
 How to Use
-Open Power BI Desktop.
+Load the CSV file into Power BI.
 
-Load the dataset from the CSV file.
+Clean and preprocess data using Power Query Editor.
 
-Use the Power Query Editor to clean and format data as needed.
+Create visuals based on selected fields.
 
-Create visualizations using charts, slicers, and KPIs.
+Use interactive filters to explore insights.
 
-Arrange visuals on the report page for easy navigation and analysis.
-
-Publish to Power BI Service if sharing is needed.
-
-Author
-Thamizhini K R
-B.Tech AI & Data Science, Sri Krishna College of Technology
+Share the dashboard through Power BI Service if needed.
